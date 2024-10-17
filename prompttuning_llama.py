@@ -9,7 +9,7 @@ import numpy as np
 # from datasets import load_dataset
 
 # Authenticate with Hugging Face
-login(token='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')
+login(token='token_id')
 
 model_name = "meta-llama/Llama-2-7b-chat-hf"
 model = AutoModelForCausalLM.from_pretrained(
